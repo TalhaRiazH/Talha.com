@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.s1 {
+    background: rgba(0, 0, 0, 0.6) url('images/bg1.jpg');
+    background-blend-mode: darken;
+    height: 500px;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-top: 0.6rem;
+    filter: invert(100%);
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.nav-bar i {
+    justify-self: left;
+    margin-left: 9.4rem;
+}
+
+.nav-bar button {
+    cursor: pointer;
+    justify-self: right;
+    margin-right: 10rem;
+    margin-top: 1.2rem;
+    outline: none;
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.nav-bar button a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar button :hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/* -----------------------------Nav-end---------------------- */
+
+.details {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.details h3 {
+    color: white;
+    font-weight: 100;
+    margin-left: 9rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+
+.details h2 {
+    color: white;
+    font-weight: 700;
+    margin-left: 9rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.details p {
+    color: white;
+    margin-left: 9rem;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.details button {
+    cursor: pointer;
+    margin-left: 9rem;
+    margin-top: 20px;
+    border: none;
+    padding-top: 3px;
+    text-transform: uppercase;
+    border: 2px solid #8A2BE2;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #8A2BE2;
+    transition: 0.8s;
+}
+
+.details button a {
+    color: white;
+    text-decoration: none;
+}
+
+.details button:hover {
+    border: 2px solid white;
+}
+
+/* ----------------------------details-end------------------- */
+
+.s2 {
+    margin-top: 5px;
+    background-color: rgb(43, 2, 71);
+    height: 50vh;
+}
+
+.right-txt {
+    display: flex;
+    align-items: center;
+}
+
+.right-txt img {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.459);
+    height: 200px;
+    display: inline-block;
+    margin-top: 100px;
+    border-radius: 5px;
+    margin-left: 9.3rem;
+}
+
+.rightd {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.rightd button {
+    width: 200px;
+}
+
+.rightd h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+
+.rightd h4 {
+    margin-top: 90px;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.rightd p {
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    color: white;
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+.rightd button {
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    padding-top: 3px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #8A2BE2;
+    background-color: #8A2BE2;
+    transition: 0.8s;
+}
+
+.rightd button:hover {
+    border: 2px solid white;
+}
+
+.rightd button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* -----------------------------------section2-ends------------------------- */
+
+.s3 {
+    background-image: url('images/guitar.jpg');
+    height: 60vh;
+    margin-top: 5px;
+}
+
+.s3 button {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10rem;
+    color: white;
+    border: none;
+    border: 2px solid #8A2BE2;
+    padding-top: 3px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #8A2BE2;
+    transition: 0.8s;
+}
+
+.s3 button:hover {
+    border: 2px solid white;
+}
+
+.s3 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex-r {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-r h3 {
+    font-size: 2rem;
+    margin-left: 10rem;
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+
+.flex-r p, h3 {
+    color: white;
+}
+
+.flex-r p {
+    text-transform: uppercase;
+    margin-top: 6rem;
+    margin-left: 10rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: gray;
+}
+
+.grid div p {
+    color: grey;
+    font-size: 1em;
+    padding: 20px 0px;
+    margin-left: 110px;
+}
+
+.no-margin p {
+    margin-left: 0;
+}
+
+.grid div i {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 75px;
+    filter: invert(100%);
+}
+
+.grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 80px;
+}
+
+/* ---------------------------------------------section3-ends--------------------- */
+
+@media (max-width:1003px) {
+    .grid {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 80px;
+    }
+    .rightd {
+        margin-right: 50px;
+    }
+    .rightd h4 {
+        font-size: 0.6rem;
+    }
+    .rightd h3 {
+        font-size: 1em;
+    }
+    .rightd p {
+        font-size: 0.5em;
+    }
+    .rightd button {
+        width: 170px;
+        height: 30px;
+    }
+    /* ---------------------section3---------------- */
+    .flex-r p {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+    .flex-r h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width:900px) {
+    .grid {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 80px;
+    }
+}
+@media (max-width:790px){
+    
+    .s3 {
+        height: 43vh;
+    }
+}
+@media (max-width:700px) {
+    .right-txt img {
+        height: 170px;
+        margin-top: 60px;
+        margin-left: 8rem;
+    }
+    .rightd {
+        margin-right: 50px;
+        margin-left: 27px;
+    }
+    .rightd h4 {
+        font-size: 0.6rem;
+    }
+    .rightd h3 {
+        font-size: 1em;
+    }
+    .rightd p {
+        font-size: 0.5em;
+    }
+    .rightd button {
+        width: 150px;
+        height: 30px;
+    }
+    /* ---------------------section3---------------- */
+    .flex-r p {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+    .flex-r h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width:688px) {
+    .nav-bar i {
+        margin-left: 3.4rem;
+    }
+    .nav-bar button {
+        margin-right: 3rem;
+    }
+    .details h3 {
+        margin-left: 3rem;
+    }
+    .details h2 {
+        margin-left: 3rem;
+    }
+    .details p {
+        margin-left: 3rem;
+    }
+    .details button {
+        margin-left: 3rem;
+    }
+    .right-txt img {
+        margin-left: 3rem;
+    }
+    .flex-r p {
+        margin-left: 3rem;
+    }
+    .flex-r h3 {
+        margin-left: 3rem;
+    }
+    .grid div p {
+        margin-left: 1px;
+    }
+    .grid div i {
+        margin-top: 20px;
+        margin-left: -32px;
+        filter: invert(100%);
+    }
+    .s3 button {
+        margin-left: 3rem;
+    }
+}
+@media (max-width:550px){
+    
+    .flex-r p {
+        
+        margin-top: 2rem;
+    }
+}
+@media (max-width:524px) {
+    .s1 {
+        height: 417px;
+    }
+    .s3 {
+        height: 50vh;
+    }
+    .nav-bar i {
+        font-size: 3rem;
+    }
+    .nav-bar button {
+        width: 70px;
+        height: 30px;
+    }
+    .details h3 {
+        line-height: 1.3rem;
+        font-size: 1rem
+    }
+    .details h2 {
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+    .details p {
+        font-size: 0.7rem;
+        line-height: 1.4;
+    }
+    .right-txt img {
+        height: 140px;
+    }
+    .rightd h4 {
+        margin-top: 50px;
+    }
+    .details button {
+        width: 180px;
+        height: 30px;
+        font-size: 0.7em;
+    }
+    .rightd button {
+        width: 150px;
+    }
+    .flex-r p {
+        margin-top: 50px;
+        font-size: 0.7rem;
+    }
+    .flex-r h3 {
+        font-size: 1.5rem;
+    }
+    .grid div p {
+        font-size: 0.8em;
+        padding: 12px 0px;
+    }
+    .grid div i {
+        margin-top: 10px;
+    }
+    .s3 button {
+        width: 100px;
+        height: 30px;
+        font-size: 0.7em;
+    }
+    .s3 {
+        height: 40vh;
+    }
+}
+
+@media (max-width:421px) {
+    .right-txt img {
+        height: 95px;
+    }
+    .s2 {
+        height: 31vh;
+    }
+    .rightd h4 {
+        margin-top: 7px;
+    }
+    .rightd p {
+        line-height: 0.8rem;
+    }
+    .right-txt img {
+        margin-left: 1rem;
+        margin-top: 27px;
+    }
+    .grid div p {
+        font-size: 0.6em;
+        padding: 12px 0px;
+    }
+    .flex-r h3 {
+        font-size: 1.3rem;
+    }
+    .details h2 {
+        line-height: 1.8rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:370px) {
+    .s2 {
+        height: 35vh;
+    }
+    .flex-r p {
+        margin-top: 27px;
+    }
+}
+
+@media (max-width:323px) {
+    .nav-bar i {
+        font-size: 1.9rem;
+    }
+    .nav-bar button {
+        width: 53px;
+        height: 21px;
+        margin-top: 0.9rem;
+    }
+    .nav-bar button a{
+            font-size: 0.6rem;
+            
+    }
+    .details {
+        height: 299px;
+    }
+    .s1 {
+        height: 347px;
+    }
+    .s2 {
+        height: 36vh;
+    }
+    .right-txt img {
+        height: 72px;
+    }
+    .rightd button {
+        width: 88px;
+        height: 19px;
+    }
+    .rightd button a {
+       font-size: 0.6rem;
+     
+    }
+    .flex-r h3 {
+        font-size: 1.2rem;
+    }
+    .grid {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(4, 1fr);
+        margin-left: 80px;
+    }
+    .flex-r p {
+        margin-top: 7px;
+    }
+    .s3 {
+        height: 44vh;
+    }
+}
+
+
